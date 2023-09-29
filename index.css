@@ -26,6 +26,11 @@ body{
     display: flex;
     flex-direction: column;
 }
+@media (max-width:500px){
+    .container1{
+        width: 95vw;
+    }
+}
 
 #click{
     font-size: 25px;
@@ -83,13 +88,14 @@ body{
     color: white;
     background-color: #3374CC;
     border-radius: 15px;
+    overflow: hidden;
 
 }
 footer h4{
     color: white;
     position: fixed;
     bottom: 2px;
-    right: 5px;
+    right: 20px;
     font-size: 1rem;
 
 }
