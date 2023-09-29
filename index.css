@@ -91,19 +91,21 @@ body{
     overflow: hidden;
 
 }
-footer h4{
+footer {
     color: white;
     position: fixed;
     bottom: 2px;
     right: 20px;
-    font-size: 1rem;
+    /* font-size: 1rem; */
 
 }
-@media (max-width:500px){
-    footer h4{
-        top: 2px;
-        
-    }
+footer h4{
+    font-size: 1rem;
+}
+@media (max-width:500px) {
+   footer h4{
+    font-size: 0.5rem;
+   }
 }
 .red{
     color: red;
