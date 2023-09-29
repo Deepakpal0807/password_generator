@@ -99,6 +99,12 @@ footer h4{
     font-size: 1rem;
 
 }
+@media (max-width:500px){
+    footer h4{
+        top: 2px;
+        
+    }
+}
 .red{
     color: red;
 }
