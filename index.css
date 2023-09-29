@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+   
+}
+body{
+    background-image: url('bcg2.webp');
+    font-family: 'Young Serif', serif;
+}
+
+
+
+.container1{
+    background-color: rgba(0, 0, 0,0.9);
+    border-radius: 20px;
+    width: 500px;
+    height:90vh;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 5vh;
+    color: white;
+    display: flex;
+    flex-direction: column;;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#click{
+    font-size: 25px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:#342D57;
+    color: white;
+    /* margin: 1vh 0 ; */
+}
+
+
+#length{
+   flex: 1;
+   background-color:  rgb(48,81,137);
+}
+.size{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.size h5{
+    margin: 0px 10px;
+}
+.setting{
+    /* margin: 1.5vh 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 45%;
+
+}
+.s-name{
+    font-size: 0.9rem;
+}
+.se-button{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    height:20%;
+    border-radius: 10px;
+    align-items: center;
+    /* margin: 10px 0; */
+    padding: 0px 15px;
+    /* background-color: #342c58; */
+    background-color:rgba(52, 44, 88, 0.5);
+}
+.se-button h4{
+    margin: 0px 10px;
+    font-size: 0.6 em;
+}
+#Generate{
+    /* font-size: 1.5rem; */
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    background-color: #3374CC;
+    border-radius: 15px;
+
+}
+footer h4{
+    color: white;
+    position: fixed;
+    bottom: 2px;
+    right: 5px;
+    font-size: 1rem;
+
+}
+.red{
+    color: red;
+}
+
